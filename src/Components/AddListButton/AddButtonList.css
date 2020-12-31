@@ -1,0 +1,52 @@
+.addList {
+  opacity: 0.8; }
+
+.addListPopup {
+  position: relative;
+  width: 235px;
+  height: 148px;
+  background: #ffffff;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 18px;
+  top: -200px;
+  right: -120px;
+  z-index: 99999999; }
+  .addListPopup .field {
+    background: #ffffff;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 12px; }
+    .addListPopup .field:focus {
+      border-color: #d5d5d5; }
+  .addListPopup__colors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px; }
+    .addListPopup__colors .badge {
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      border: 2px solid transparent; }
+      .addListPopup__colors .badge.active {
+        border: 2px solid #525252; }
+  .addListPopup__closeBtn {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    cursor: pointer; }
+  .addListPopup .button {
+    margin-top: 15px;
+    width: 100%;
+    background: #4dd599;
+    border-radius: 4px;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer; }
+    .addListPopup .button:hover {
+      background: #38d08d; }
+    .addListPopup .button:active {
+      background: black; }

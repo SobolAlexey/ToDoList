@@ -1,0 +1,27 @@
+i {
+  display: inline-flex;
+  margin-right: 10px; }
+
+.badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: black; }
+  .badge--blue {
+    background-color: #64c4ed; }
+  .badge--red {
+    background-color: #ed6464; }
+  .badge--grey {
+    background-color: #C9D1D3; }
+  .badge--blue {
+    background-color: #64C4ED; }
+  .badge--lime {
+    background-color: #B6E6BD; }
+  .badge--purple {
+    background-color: #C355F5; }
+  .badge--green {
+    background-color: #42B883; }
+  .badge--black {
+    background-color: #110133; }
+  .badge--pink {
+    background-color: #FFBBCC; }
